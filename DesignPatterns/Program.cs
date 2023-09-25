@@ -1,4 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using DesignPatterns.Builder.Builder;
+using DesignPatterns.Builder.BuilderInheritance;
+using DesignPatterns.Builder.FacetedBuilder;
+using DesignPatterns.Builder.FunctionalBuilder;
+using DesignPatterns.Builder.StepwiseBuilder;
 using DesignPatterns.SOLID.DIP;
 using DesignPatterns.SOLID.LP;
 using DesignPatterns.SOLID.OCP;
@@ -69,7 +74,7 @@ Console.WriteLine($"{sq} has area {Area(sq)}");
 */
 
 //SOLID DIP - Dependency inversion principle
-
+/*
 var parent = new Person { Name = "John" };
 var child1 = new Person { Name = "Chris" };
 var child2 = new Person { Name = "Matt" };
@@ -78,5 +83,21 @@ var child2 = new Person { Name = "Matt" };
 var relationships = new Relationships();
 relationships.AddParentAndChild(parent, child1);
 relationships.AddParentAndChild(parent, child2);
-
+3
 new Research(relationships);
+*/
+
+//Builder - Fluent Builder
+//BuilderMain.Main(new string[3]);
+
+//Builder - Inheritance builder
+//BuilderInheritanceMain.Main(new string[3]);
+
+//Builder - Stepwise builder
+//StepwiseBuilderMain.Main(new string[3]);
+
+//Builder - Functional builder
+//FunctionalBuilder.Main(new string[3]);
+
+//Builder - Facets builder
+FactetedBuilderMain.Main(new string[3]);
