@@ -2,7 +2,7 @@
 {
     public class FactetdBuilderMain
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             var pb = new PersonBuilder();
             Person person = pb

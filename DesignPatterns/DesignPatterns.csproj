@@ -7,4 +7,21 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Adapter\Exercise\" />
+    <Folder Include="Bridge\Exercise\" />
+    <Folder Include="Composite\Exercise\" />
+    <Folder Include="Decorator\Exercise\" />
+    <Folder Include="Facade\Exercise\" />
+    <Folder Include="Factory\Exercise\" />
+    <Folder Include="Prototype\Exercise\" />
+    <Folder Include="Singleton\Exercise\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.1.0" />
+    <PackageReference Include="morelinq" Version="3.4.2" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+  </ItemGroup>
+
 </Project>

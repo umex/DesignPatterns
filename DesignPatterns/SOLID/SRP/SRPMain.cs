@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.SOLID.SRP
 {
-    public  class SRPMain
+    public class SRPMain
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             var j = new Journal();
             j.AddEntry("I laughed today.");

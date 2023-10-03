@@ -4,7 +4,7 @@ namespace DesignPatterns.Builder.Builder
 {
     public class BuilderMain
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             // if you want to build a simple HTML paragraph using StringBuilder
             var hello = "hello";

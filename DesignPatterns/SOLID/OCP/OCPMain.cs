@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.SOLID.OCP
 {
-    public  class OCPMain
+    public class OCPMain
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             var apple = new Product("Apple", Color.Green, Size.Small);
             var tree = new Product("Tree", Color.Green, Size.Large);

@@ -8,7 +8,7 @@ namespace DesignPatterns.Builder.FunctionalBuilder
 {
     public class FunctionalBuilder
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             var pb = new PersonBuilder();
             var person = pb.Called("Dmitri").WorksAsA("Programmer").Build();

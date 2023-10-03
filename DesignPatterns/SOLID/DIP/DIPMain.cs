@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.SOLID.DIP
 {
-    public  class DIPMain
+    public class DIPMain
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             var parent = new Person { Name = "John" };
             var child1 = new Person { Name = "Chris" };

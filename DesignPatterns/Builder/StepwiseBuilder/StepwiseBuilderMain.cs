@@ -8,7 +8,7 @@ namespace DesignPatterns.Builder.StepwiseBuilder
 {
     public class StepwiseBuilderMain
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             var car = CarBuilder.Create() //ISpecifyCarType
               .OfType(CarType.Crossover)  //ISpecifyWheelSize

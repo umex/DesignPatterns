@@ -9,7 +9,7 @@ namespace DesignPatterns.SOLID.LP
 {
     public class LPMain
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             static int Area(Rectangle r) => r.Width * r.Height;
             Rectangle rc = new Rectangle(2, 3);

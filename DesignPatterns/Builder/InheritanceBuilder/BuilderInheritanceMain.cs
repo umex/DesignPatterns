@@ -13,7 +13,7 @@ namespace DesignPatterns.Builder.BuilderInheritance
 
         }
 
-        public static void Main(string[] args)
+        public static void Main()
         {
             var me = Person.New
               .Called("Dmitri")
