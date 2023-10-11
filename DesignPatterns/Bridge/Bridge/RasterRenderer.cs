@@ -10,7 +10,7 @@ namespace DesignPatterns.Bridge.Bridge
     {
         public void RenderCircle(float radius)
         {
-            WriteLine($"Drawing pixels for circle of radius {radius}");
+            Console.WriteLine($"Drawing pixels for circle of radius {radius}");
         }
     }
 }
