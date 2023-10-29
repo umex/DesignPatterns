@@ -4,9 +4,14 @@ using DesignPatterns.Builder.BuilderInheritance;
 using DesignPatterns.Builder.FacetedBuilder;
 using DesignPatterns.Builder.FunctionalBuilder;
 using DesignPatterns.Builder.StepwiseBuilder;
+using DesignPatterns.Command.CompositeCommand;
 using DesignPatterns.Factory.AbstractFactory;
 using DesignPatterns.Factory.ObjectTrackingAndBulkReplacement;
 using DesignPatterns.Factory.PointExample;
+using DesignPatterns.Mediator.EventBroker;
+using DesignPatterns.Mediator.MediatR;
+using DesignPatterns.Observer.BidricetionalObserver;
+using DesignPatterns.Observer.SpecialInterfaces;
 using DesignPatterns.Prototype.CopyConstructors;
 using DesignPatterns.Prototype.CopyThroughSerialization;
 using DesignPatterns.Prototype.ICloneableIsBad;
@@ -16,6 +21,7 @@ using DesignPatterns.SOLID.DIP;
 using DesignPatterns.SOLID.LP;
 using DesignPatterns.SOLID.OCP;
 using DesignPatterns.SOLID.SRP;
+using System;
 using System.Diagnostics;
 
 //Console.WriteLine("Hello, World!");
@@ -71,3 +77,40 @@ using System.Diagnostics;
 
 //Prototype - CopyThroughSerialization
 //CopyThroughSerializationMain.Main();
+
+//CompositeCommandMain.Main();
+
+//EventBrokerMain.Main();
+
+//MedtiatRMain.Main();
+
+
+void pyramid(int n)
+{
+    var colN = 2 * n - 1;
+
+    for (int i = 0; i < n; i++)
+	{
+        var stair = "";
+		for (int j = 0; j < colN; j++)
+		{
+            
+            if (j < (colN - 1) / 2 - i)
+            {
+                stair += ' ';
+            }
+            else if (j > (colN - 1) / 2 + i)
+            {
+                stair += ' ';
+            }
+            else
+            {
+                stair += '#';
+            }
+        }
+        Console.WriteLine(stair);
+	}
+
+}
+
+pyramid(4);
