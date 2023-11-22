@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DictType = Dictionary<Type, Action<Expression, StringBuilder>>;
+
 
 namespace DesignPatterns.Visitor.ReflectiveVisitor
 {
+    using DictType = Dictionary<Type, Action<Expression, StringBuilder>>;
     public static class ExpressionPrinter
     {
         private static DictType actions = new DictType
