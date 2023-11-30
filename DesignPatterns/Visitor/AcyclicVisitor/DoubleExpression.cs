@@ -22,3 +22,5 @@ namespace DesignPatterns.Visitor.AcyclicVisitor
         }
 
     }
+
+}

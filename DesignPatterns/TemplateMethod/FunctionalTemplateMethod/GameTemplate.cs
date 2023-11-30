@@ -17,7 +17,7 @@ namespace DesignPatterns.TemplateMethod.FunctionalTemplateMethod
             start();
             while (!haveWinner())
                 takeTurn();
-            WriteLine($"Player {winningPlayer()} wins.");
+            Console.WriteLine($"Player {winningPlayer()} wins.");
         }
     }
 

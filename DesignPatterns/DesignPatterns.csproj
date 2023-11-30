@@ -10,6 +10,7 @@
   <ItemGroup>
     <Folder Include="Adapter\Exercise\" />
     <Folder Include="Bridge\Exercise\" />
+    <Folder Include="ChainOfResponsibility\CommandQuerySeperation\" />
     <Folder Include="Composite\Exercise\" />
     <Folder Include="Decorator\Exercise\" />
     <Folder Include="Facade\Exercise\" />
